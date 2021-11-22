@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="50.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controllers.InitWindowController">
+    <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#secondWindow"
+            text="open the &quot;Hello, world!&quot; window" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0"
+            AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0"/>
+</AnchorPane>
